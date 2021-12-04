@@ -13,6 +13,7 @@ fn main() {
     match args.day.as_ref() {
         "Day1" => solutions::day1::solve(),
         "Day2" => solutions::day2::solve(),
+        "Day3" => solutions::day3::solve(),
         _ => println!("Solution for {} is not implemented yet!", args.day),
     }
 }
