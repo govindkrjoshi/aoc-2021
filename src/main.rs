@@ -16,6 +16,7 @@ fn main() {
         "Day3" => solutions::day3::solve(),
         "Day4" => solutions::day4::solve(),
         "Day5" => solutions::day5::solve(),
+        "Day6" => solutions::day6::solve(),
         _ => println!("Solution for {} is not implemented yet!", args.day),
     }
 }
