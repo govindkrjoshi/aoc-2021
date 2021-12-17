@@ -77,19 +77,6 @@ impl Board {
         false
     }
 
-    fn print(&self) {
-        for row in &self.elems {
-            for elem in row {
-                if elem.is_marked {
-                    print!("~{}~\t", elem.value);
-                } else {
-                    print!("{}\t", elem.value);
-                }
-            }
-            println!("");
-        }
-    }
-
     fn score(&self) -> u32 {
         let mut sum = 0;
         for row in &self.elems {
