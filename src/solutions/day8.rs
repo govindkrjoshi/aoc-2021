@@ -8,7 +8,7 @@ use nom::{
 };
 use std::{collections::HashSet, fs};
 
-static INPUT_FILE: &str = "./inputs/day8/inpuinputt";
+static INPUT_FILE: &str = "./inputs/day8/input.txt";
 
 struct InputRow {
     all_digits: Vec<HashSet<char>>,
